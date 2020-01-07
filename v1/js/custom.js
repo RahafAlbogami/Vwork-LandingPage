@@ -173,4 +173,20 @@ $(window).on('load', function(){
 		  enabled:false
 		}
 	});  
+
+
+	function myFunction() {
+		var x = document.getElementById("Company");
+		var y = document.getElementById("Indivisual");
+
+		y.style.display = "none";
+
+		if (x.style.display === "none") {
+		  x.style.display = "block";
+		  y.style.display = "none";
+		} else {
+			y.style.display = "block";
+			x.style.display = "none";
+		}
+	  }
  
