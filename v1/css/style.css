@@ -78,8 +78,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: 'Cabin', sans-serif;
+h6,
+p{
+  font-family: 'Tajawal', sans-serif;;
   line-height: 1.2;
   margin-top: 0;
   margin-bottom:20px;
@@ -501,14 +502,14 @@ iframe {
 /* ========================================================== */
 
 .navbar-brand{
-	font-family: 'Cabin', sans-serif;
+	
 	font-size: 28px;
 	font-weight: 700;
 	color: #fff!important;
 }
 
 .navbar-fixed-top.opaque .navbar-brand{
-	font-family: 'Cabin', sans-serif;
+	
 	font-size: 28px;
 	font-weight: 700;
 	color: #fff!important;
@@ -532,7 +533,7 @@ iframe {
 
 .navbar {
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 .navbar-fixed-top {
@@ -547,6 +548,7 @@ iframe {
 	background-color: #990fc3;
     background-image: linear-gradient(to right top, #174a82, #006596, #007f9e, #00979c, #3dae95);
 	padding: 20px 0;
+    padding-bottom: 40px;
 	transition: all 0.25s ease-in-out 0s;
 }
 
@@ -564,7 +566,7 @@ iframe {
 	line-height: 30px !important;
 	text-transform: uppercase;
 	padding: 10px 20px!important;
-	font-family: 'Cabin', sans-serif;
+	
 	font-weight: 700;
 }
 
@@ -579,13 +581,13 @@ iframe {
 	padding: 8px 24px!important;
 	margin-left: 10px;
 	margin-right: 15px;
-	font-family: 'Cabin', sans-serif;
+	
 }
 
 .navbar-fixed-top.opaque .navbar-nav > li > a.discover-btn {
 	background: #fff;
 	border: 1px solid #fff;
-	color: #7566e3!important;
+	color: #3DAE95!important;
 	-webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -594,7 +596,7 @@ iframe {
 
 .navbar-fixed-top .navbar-nav > li > a.discover-btn:hover {
 	border: 1px solid #ffffff;
-	color: #7566e3!important;
+	color: #3DAE95!important;
 	background: #ffffff;
 }
 
@@ -605,7 +607,7 @@ iframe {
 }
 
 .navbar-fixed-top.opaque #navbar-collapse-02 .current a.discover-btn {
-    color: #7566e3!important;
+    color: #3DAE95!important;
 }
 
 /* ========================================================== */
@@ -624,11 +626,7 @@ iframe {
 .footer:before {
     -webkit-transform: rotate(-184deg);
     background-color: #990fc3;
-    background: -webkit-linear-gradient(135deg,#990fc3 0,#760fc3 16%,#652ec3 52%,#652ec3 52%,#0dd3c5 100%,#7db9e8 100%);
-    background: -o-linear-gradient(135deg,#990fc3 0,#760fc3 16%,#652ec3 52%,#652ec3 52%,#0dd3c5 100%,#7db9e8 100%);
-    background: -moz-linear-gradient(135deg,#990fc3 0,#760fc3 16%,#652ec3 52%,#652ec3 52%,#0dd3c5 100%,#7db9e8 100%);
-    background: linear-gradient(135deg,#990fc3 0,#760fc3 16%,#652ec3 52%,#652ec3 52%,#0dd3c5 100%,#7db9e8 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#990fc3", endColorstr="#7db9e8", GradientType=1 );
+    background-image: linear-gradient(to right top, #174a82, #006596, #007f9e, #00979c, #3dae95);
     border-radius: 750px;
     content: "";
     height: 1250px;
@@ -762,7 +760,7 @@ ul.footer_social li a i:hover {
 
 .team-item:hover {
 	margin-top: 25px;
-	border-bottom: 3px solid #9561d4;
+	border-bottom: 3px solid #3DAE95;
 	transition: all 1s;
 }
 
@@ -788,7 +786,7 @@ ul.footer_social li a i:hover {
 }
 
 .team-info::after {
-    background: #9561d4;
+    background: #3DAE95;
     display: inline-block;
     vertical-align: middle;
     content: "";
@@ -935,7 +933,7 @@ ul.team-icon li a.dribble{
 
 .main-services:hover {
 	margin-top: 25px;
-	border-bottom: 3px solid #9561d4;
+	border-bottom: 3px solid #3DAE95;
 	transition: all 1s;
 }
 
@@ -962,7 +960,7 @@ blockquote {
 
 a.btn-download {
 	color: #ffffff;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	font-size: 16px;
 	background: #4285f4;
 	border: 2px solid #4285f4;
@@ -1022,7 +1020,7 @@ ul.features-responsive li i {
 	text-align: center;
 	color: #fff;
 	border-radius: 20px;
-    background: #7566e3;
+    background: #3DAE95;
 }
 
 .feature-box.light-blue i{
@@ -1265,7 +1263,7 @@ ul.features-responsive li i {
 }
 
 ul.pricing-list li.price-title{
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 700;
@@ -1273,7 +1271,7 @@ ul.pricing-list li.price-title{
 }
 
 ul.pricing-list li.price-value{
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	font-size: 70px;
 	line-height: 70px;
 	display: block;
@@ -1282,7 +1280,7 @@ ul.pricing-list li.price-value{
 }
 
 ul.pricing-list li.price-subtitle{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;;
 	margin-bottom: 30px;
 	font-size: 16px;
 	line-height: 24px;
@@ -1290,7 +1288,7 @@ ul.pricing-list li.price-subtitle{
 }
 
 ul.pricing-list li.price-text{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;;
 	font-size: 16px;
 	line-height: 28px;
 	font-weight: 400;
@@ -1509,7 +1507,7 @@ img.download-app-iphone{
 }
 
 .btn-download-app p {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	font-size: 18px;
 	line-height: 20px;
 	font-weight: 700;
@@ -1520,7 +1518,7 @@ img.download-app-iphone{
 }
 
 .btn-download-app p small {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Tajawal', sans-serif;;
 	font-size: 12px;
 	line-height: 14px;
 	font-weight: 400;
@@ -1817,7 +1815,7 @@ p.contact_success_box{
 	height:65px;
     background: #fff;
 	border: none;
-    color:#9561d4;  
+    color:#3DAE95;  
     display: inline;
 	margin:0 0 0 -5px;
     -moz-border-radius: 0 5px 5px 0;
@@ -1868,7 +1866,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: 700;
@@ -1888,7 +1886,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 .btn-white {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	font-size: 17px;
 	line-height: 22px;
 	font-weight: 700;
@@ -1914,7 +1912,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 .btn-white-border {
 	color: #fff;
 	background: transparent;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Tajawal', sans-serif;
 	font-size: 17px;
 	line-height: 22px;
 	font-weight: 700;
@@ -1941,7 +1939,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 .btn-green {
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Tajawal', sans-serif;;
 	font-size: 19px;
 	line-height: 22px;
 	font-weight: 600;
@@ -1952,6 +1950,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
     letter-spacing: 1px;
 	border-radius: 5px 5px;
 	margin: 10px 10px 0 10px 0;
+    margin-right: 15px;
 	padding: 20px 36px;
 	display: inline-block;
 	transition: all 0.4s ease-in-out;
@@ -1976,7 +1975,7 @@ input#email_newsletter:-ms-input-placeholder { /* Internet Explorer 10+ */
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-	font-family: 'Cabin', sans-serif;
+
 	font-size: 17px;
 	line-height: 22px;
 	font-weight: 700;
@@ -2144,7 +2143,6 @@ a.btn-green:visited, a.btn-green:focus, a.btn-lyla:visited, a.btn-lyla:focus{
     font-size: 17px;
     font-weight: 700;
     color: #454545;
-    font-family: 'Cabin', sans-serif;
 }
 
 .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
@@ -2180,7 +2178,7 @@ a.btn-green:visited, a.btn-green:focus, a.btn-lyla:visited, a.btn-lyla:focus{
 }
 
 .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
-    border-top: 3px solid #9561d4;
+    border-top: 3px solid #3DAE95;
  }
 
 /* g) Features List */
@@ -2215,7 +2213,7 @@ ul.benefits li i {
 .fun-facts-icon {
 	font-size:54px;
 	line-height:60px;
-	color:#7566e3;
+	color:#3DAE95;
 	display: inline-block;
 	text-align:center;
 	margin-right: 15px;
@@ -2486,3 +2484,41 @@ ul.partners-mentions li img:hover {
   	}
 
 }
+
+.switch-flat {
+	padding: 0;
+	background: #FFF;
+	background-image: none;
+}
+.switch-flat .switch-label {
+	background: #FFF;
+	border: solid 2px #eceeef;
+	box-shadow: none;
+}
+.switch-flat .switch-label:after {
+	color: #0088cc;
+}
+.switch-flat .switch-handle {
+	top: 6px;
+	left: 6px;
+	background: #dadada;
+	width: 22px;
+	height: 22px;
+	box-shadow: none;
+}
+.switch-flat .switch-handle:before {
+	background: #eceeef;
+}
+.switch-flat .switch-input:checked ~ .switch-label {
+	background: #FFF;
+	border-color: #0088cc;
+}
+.switch-flat .switch-input:checked ~ .switch-handle {
+	left: 72px;
+	background: #0088cc;
+	box-shadow: none;
+}
+
+
+
+
