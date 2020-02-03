@@ -1086,7 +1086,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 input,
 button,
@@ -4282,7 +4282,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
+  padding: 0px 15px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -6767,7 +6767,7 @@ button.close {
 body {
 	 font-family: 'Tajawal', sans-serif;
 	 color: #6b7381;
-	 background: #fff;
+	 background: #ffffff;
 }
  .jumbotron {
 	 background: #6b7381;

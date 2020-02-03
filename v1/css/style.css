@@ -42,7 +42,7 @@ ul, ol {
 	list-style-image: none; 
 	margin: 0; 
 	padding: 0;
-	color:#858585;
+	color:#ffffff;
 	font-size: 14px;
 	line-height:24px;
 	margin-bottom:20px;
@@ -80,7 +80,7 @@ h4,
 h5,
 h6,
 p{
-  font-family: 'Tajawal', sans-serif;;
+  font-family: 'Tajawal', sans-serif;
   line-height: 1.2;
   margin-top: 0;
   margin-bottom:20px;
@@ -176,7 +176,7 @@ iframe {
 }
 
 .section-grey{
-	background: #f5f6f7;
+	background: #ffffff;
 	padding: 90px 0 100px 0;
 }
 
@@ -548,7 +548,6 @@ iframe {
 	background-color: #990fc3;
     background-image: linear-gradient(to right top, #174a82, #006596, #007f9e, #00979c, #3dae95);
 	padding: 20px 0;
-    padding-bottom: 40px;
 	transition: all 0.25s ease-in-out 0s;
 }
 
@@ -620,7 +619,7 @@ iframe {
     display: block;
     margin-top: 30px;
     padding: 110px 0 55px 0;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .footer:before {
@@ -692,7 +691,7 @@ ul.footer_social li a i:hover {
 	position: relative;
   	padding-top: 110px;
   	padding-bottom: 80px;
-  	background-color: #f5f6f7;
+  	background-color: #ffffff;
 }
 
 .home-section:before {
