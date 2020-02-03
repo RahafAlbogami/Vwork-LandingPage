@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login page</title>
+
+    <link rel="stylesheet" href="css/Loginstyle.css">
+</head>
+
+<body>
+    <section class="wrapper">
+        <div class="content">
+            <header>
+                <h1>مرحبًا بعودتك</h1>
+            </header>
+            <section>
+                <form class="login-form">
+                    <div class="input-group">
+                        <label for="username">Username or Email</label>
+                        <input type="email" placeholder="Username or Email" id="username">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="Password" id="password">
+                    </div>
+                    <div class="input-group">
+                        <button onclick="UserSignIn()">Login</button>
+                    </div>
+                    <a href="">
+                        <p>Signup</p>
+                    </a>
+                </form>
+            </section>
+        </div>
+    </section>
+
+
+
+    <!-- Load JS here for greater good =============================-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+
+
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
