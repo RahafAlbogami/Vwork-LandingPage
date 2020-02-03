@@ -53,7 +53,7 @@ $(window).on('load', function(){
 	/* ========================================================== */
 	
 	$(window).on('scroll', function() {
-		if($(this).scrollTop() > 450) {
+		if($(this).scrollTop()) {
 			$('.navbar-fixed-top').addClass('opaque');
 		} else {
 			$('.navbar-fixed-top').removeClass('opaque');
@@ -91,7 +91,7 @@ $(window).on('load', function(){
 		var target_offset = $("#"+trgt).offset();
 		var target_top = target_offset.top;
 		
-		$('html,body').animate({scrollTop:target_top -70}, 1000);
+		$('html,body').animate({scrollTop:target_top -150}, 1000);
 			return false;
 		
 	});
@@ -179,8 +179,6 @@ $(window).on('load', function(){
 		var x = document.getElementById("Company");
 		var y = document.getElementById("Indivisual");
 
-		y.style.display = "none";
-
 		if (x.style.display === "none") {
 		  x.style.display = "block";
 		  y.style.display = "none";
@@ -189,4 +187,18 @@ $(window).on('load', function(){
 			x.style.display = "none";
 		}
 	  }
+
+
+	  function IndevisualButton() {
+		var x = document.getElementById("Indivisual");
+		var y = document.getElementById("Company");
+
+		if (x.style.display === "none") {
+			x.style.display = "block";
+			y.style.display = "none";
+		  } else {
+			  y.style.display = "block";
+			  x.style.display = "none";
+		  }
+	}
  
