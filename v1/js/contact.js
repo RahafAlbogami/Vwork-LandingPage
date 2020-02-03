@@ -1,12 +1,12 @@
 var Config = {
-    apiKey: "AIzaSyCZP65NowJEhbucSC0DZlUU1NI-hje_iQ8",
-    authDomain: "vworkcontactinfo.firebaseapp.com",
-    databaseURL: "https://vworkcontactinfo.firebaseio.com",
-    projectId: "vworkcontactinfo",
-    storageBucket: "vworkcontactinfo.appspot.com",
-    messagingSenderId: "976309253950",
-    appId: "1:976309253950:web:6eb8d50b3aa69127fede6f",
-    measurementId: "G-XJFPY72GPK"
+    apiKey: "apiKey",
+    authDomain: "authDomain",
+    databaseURL: "databaseURL",
+    projectId: "projectId",
+    storageBucket: "storageBucket",
+    messagingSenderId: "messagingSenderId",
+    appId: "appId",
+    measurementId: "measurementId"
 };  
  
 
